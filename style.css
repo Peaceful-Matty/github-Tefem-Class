@@ -1,0 +1,63 @@
+This is for Large Screen
+
+title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    font-weight: lighter;
+    font-size: large;
+    text-decoration:overline;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:brown;
+    padding: 5px 20px;
+}
+
+.nav-logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display:inline;
+}
+
+.navbar ul{
+     list-style: none;
+     display:block;
+}
+
+.navbar li{
+    margin-right: 20px;
+    display: inline;
+}
+
+.navbar a{
+    color:aquamarine;
+    text-decoration:solid;
+}
+body{
+    margin: 0;
+    background-image: url("/Images/images.png");
+    background-position: center;
+    background-size: cover;
+    background-color:brown;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-style:oblique;
+    padding: 10px;
+    bottom: 0;
+    width: 100;
+    position:relative 
+    
+}
+video{
+    background-repeat: no-repeat;
+    background-position: 100px;
+    
+}

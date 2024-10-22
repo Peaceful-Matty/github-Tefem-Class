@@ -1,0 +1,65 @@
+
+This is for phone mode
+
+title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    font-weight: lighter;
+    font-size: large;
+    text-decoration:overline;
+}
+
+@media (max-width:600px){
+    /* Adjust the navbar for mobile*/
+.navbar {
+    flex-direction: column;
+    padding: 10px; /* Increases padding for better touch target*/
+}}
+
+.nav-logo{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.navbar ul{
+     list-style: none;
+     display:block;
+     width:100%;
+}
+
+.navbar li{
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.navbar a{
+    color:aquamarine;
+    text-decoration:solid;
+    font-size: 1rem;
+}
+body{
+    margin: 0;
+    background-image: url("/Images/images.png");
+    background-position: top;
+    background-size: cover;
+    background-color:brown
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style:oblique;
+    padding: 8px;
+    bottom: 0;
+    width: 100;
+    position:relative 
+    
+}
+video{
+    background-repeat:no-repeat;
+    background-position: 50px;
+    
+}
